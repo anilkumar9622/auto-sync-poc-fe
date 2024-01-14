@@ -52,7 +52,7 @@ const Poc = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:4000/create', formData);
+      const response = await axios.post('https://auto-sync-poc-be.vercel.app/create', formData);
       if(response){
         message.success("Data Added Successfully")
       }
@@ -65,7 +65,7 @@ const Poc = () => {
     if (offline) {
         const syncOfflineData = async (storedData) => {
                 try { 
-                  const response = await axios.post('http://localhost:4000/create', storedData);
+                  const response = await axios.post('https://auto-sync-poc-be.vercel.app/create', storedData);
                   if(response){message.success("Auto Sync up Successfully")
                   localStorage.removeItem('offlineData');
                    }
