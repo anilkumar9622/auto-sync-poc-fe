@@ -34,6 +34,7 @@ self.addEventListener("install", (event) => {
                 '/static/js/bundle.js',
                 '/index.html',
                 '/',
+                '/poc-list',
                 '/static/css/main.css',
                 '/static/media/logo.png',
             ]).catch(error => {

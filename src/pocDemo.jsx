@@ -160,7 +160,7 @@ export function PocDemo() {
                             type="button"
                             className="form-button"
                             onClick={handleOfflineData}
-                            style={{ marginTop: "12px", padding: "10px 55px" }}
+                            style={{ marginTop: "16px", padding: "10px 55px" }}
                         >
                             Save Offline <ArrowRight className="ml-2" size={16} />
                         </button>
