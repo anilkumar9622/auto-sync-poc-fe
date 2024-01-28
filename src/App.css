@@ -113,3 +113,104 @@
   font-weight: bold;
   color: #27ae60;
 }
+
+
+/* SignUpThree.css */
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.content {
+  max-width: 28rem;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.subtitle {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  text-align: center;
+  color: #4b5563;
+}
+
+.sign-in-link {
+  font-weight: 500;
+  color: #000;
+  transition: all 0.2s;
+}
+
+.sign-in-link:hover {
+  text-decoration: underline;
+}
+
+/* .form {
+  margin-top: 2rem;
+} */
+
+/* Add more CSS rules for the form and social buttons as needed */
+/* SignUpThree.css */
+
+/* Form container */
+.form {
+  margin-top: 2rem;
+}
+
+/* Form input fields and labels */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  width: 88%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #d1d5db;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Form button */
+.form-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
